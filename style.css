@@ -1,10 +1,16 @@
-body{
-    height: 100%;
-    background-image: url("img.jpg");
-    background-color: #ccc;
-    background-repeat: no-repeat;
-    background-position: center;
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background: url(img.jpg) no-repeat center center fixed;
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
 }
 
 .container{
@@ -14,22 +20,32 @@ body{
 }
 
 .box{
-    background: gray;
-    width: auto;
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 150px;
+    height: 38px;
+    border: 10px;
+    border-radius: 100px;
+    background-color: gray;
+}
+
+p{
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 
 button{
-    text-decoration: none;
-    background: gray;
-    display: block;
-    margin: auto;
-    border: 3px solid gray;
-    font-size: 16px;
-    padding: 16px;
-    border-radius: 15%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    border: 10px;
+}
+
+a{
+    text-decoration: none;
 }
