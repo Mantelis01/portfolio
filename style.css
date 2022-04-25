@@ -1,49 +1,47 @@
-*{
-    padding: 0;
-    margin: 0;
-}
 
-html{
+body{
     background: url(img.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
 }
 
-body{
-    width: 100%;
+* {
+    padding: 0;
+    margin: 0; 
 }
 
 .container{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
+    margin-top: 500px;
 }
 
 .box{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
-    height: 38px;
-    border: 10px;
+    width: 200px;
+    height: 45px;
+    border: 50px;
     border-radius: 100px;
-    background-color: gray;
+    background-color: #232b2b;
+
 }
 
 p{
     display: flex;
-    font-size: 24px;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    font-size: 24px;
 }
 
 button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: gray;
-    border: 10px;
+    background-color: #232b2b;
+    border: 25px;
+    color: white;
 }
 
 a{
